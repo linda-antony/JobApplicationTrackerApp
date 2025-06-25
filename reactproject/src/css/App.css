@@ -1,0 +1,68 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    form input,
+    form select {
+        flex: 1 1 200px;
+        padding: 10px 16px;
+        border: 1px solid #ccc;
+        border-radius: 999px; /* Makes it fully rounded */
+        outline: none;
+        transition: border 0.3s;
+    }
+
+        form input:focus,
+        form select:focus {
+            border-color: #007bff;
+        }
+
+    /* Submit button with rounded style */
+    form button {
+        padding: 10px 24px;
+        background-color: #007bff;
+        border: none;
+        color: white;
+        border-radius: 999px; /* Rounded button */
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+/*.page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+*/
